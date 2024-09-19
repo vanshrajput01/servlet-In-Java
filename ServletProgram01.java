@@ -30,7 +30,7 @@ public class Servlet01 implements Servlet{
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		res.setContentType("Text.html");
-		res.getWriter().print("<h5>Give html here in Response!!</h1>");
+		res.getWriter().print("<h5>Give html here in Response!!</h5>");
 		
 		
 	}
